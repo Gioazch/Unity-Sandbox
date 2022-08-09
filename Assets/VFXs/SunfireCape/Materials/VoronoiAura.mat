@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VoronoiAura
+  m_Shader: {fileID: 4800000, guid: 5e17359f998b0b241b6772c9c6010e1d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 6969cdf37bcb5aa44ac51300aa4c4548, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 49a10a3a4320d334aad92a387d046012, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _NoisePower: 0
+    - _NoiseSpeedU: 0
+    - _NoiseSpeedU1: 1
+    - _NoiseSpeedV: 0
+    - _NoiseSpeedV1: 0
+    - _Step_Treshold: 0.15
+    - _VSpeedU: 0.5
+    - _VSpeedV: 0.5
+    - _V_Angle: 10
+    - _V_Scale: 10
+    m_Colors:
+    - _Color: {r: 7.961883, g: 0, b: 0.24387716, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

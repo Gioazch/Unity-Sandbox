@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2f8bb338bba7d4d44b1186da494c7818
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _WPO_Textures: {fileID: 2800000, guid: 2182a07c868e9e14e8cb005451b8e01e, type: 3}
+  - _Erosion: {fileID: 2800000, guid: 363f1177ed94f784da5236d7c95d31fb, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
